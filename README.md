@@ -1,4 +1,4 @@
-This feature introduces an improved shopping flow in the Pluto application. When a user clicks "Add to Cart" on any product recommendation, the application automatically redirects them to a dedicated Checkout page. This eliminates unnecessary steps and provides the user with immediate feedback.
+project Introduces feature introduces an improved shopping flow in the Pluto application. When a user clicks "Add to Cart" on any product recommendation, the application automatically redirects them to a dedicated Checkout page. This eliminates unnecessary steps and provides the user with immediate feedback.
 
 What Happens After an Item Is Added to the Cart
 
@@ -42,3 +42,4 @@ st.session_state.page = "Checkout"
 followed by st.rerun() after the item is added.
 
 Existing functionalities and UI components remain unchanged; the feature only adds a new flow after the "Add to Cart" action.
+
